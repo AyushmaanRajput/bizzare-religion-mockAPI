@@ -1,0 +1,26 @@
+{
+  "name": "bizzare-religion-mockapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushmaanRajput/bizzare-religion-mockAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyushmaanRajput/bizzare-religion-mockAPI/issues"
+  },
+  "homepage": "https://github.com/AyushmaanRajput/bizzare-religion-mockAPI#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}
