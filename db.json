@@ -7,8 +7,8 @@
       "password": "hashedPassword",
       "avatarNum": 8,
       "gender": "male",
-      "balance": 4492,
-      "finCoin": 3440,
+      "balance": 4472,
+      "finCoin": 3460,
       "mobile": 9869570986,
       "contacts": [
         {
@@ -230,6 +230,18 @@
           "id": 17,
           "amount": -120,
           "date": "2023-08-27T13:59:15.814Z",
+          "type": "outgoing",
+          "status": "completed",
+          "contact": {
+            "id": 3,
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com"
+          }
+        },
+        {
+          "id": 18,
+          "amount": -20,
+          "date": "2023-08-27T14:25:00.416Z",
           "type": "outgoing",
           "status": "completed",
           "contact": {
@@ -692,8 +704,8 @@
       "password": "hashedPassword456",
       "avatarNum": 10,
       "gender": "female",
-      "balance": 5997,
-      "finCoin": 4120,
+      "balance": 6017,
+      "finCoin": 4140,
       "mobile": 9869654327,
       "contacts": [
         {
@@ -850,6 +862,18 @@
             "name": "John Doe",
             "email": "john.doe@example.com"
           }
+        },
+        {
+          "id": 12,
+          "amount": 20,
+          "date": "2023-08-27T14:25:00.416Z",
+          "type": "incoming",
+          "status": "completed",
+          "contact": {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com"
+          }
         }
       ],
       "notifications": [
@@ -893,6 +917,12 @@
           "id": 217,
           "message": "test",
           "date": "2023-08-27T13:59:15.814Z",
+          "status": "unread"
+        },
+        {
+          "id": 218,
+          "message": "tution",
+          "date": "2023-08-27T14:25:00.416Z",
           "status": "unread"
         }
       ],
@@ -1752,6 +1782,14 @@
       "message": "test",
       "date": "2023-08-27T13:59:15.814Z",
       "id": 136
+    },
+    {
+      "from": "John Doe",
+      "to": "Alice Johnson",
+      "amount": 20,
+      "message": "tution",
+      "date": "2023-08-27T14:25:00.416Z",
+      "id": 137
     }
   ],
   "supports": [
@@ -1902,7 +1940,7 @@
       "name": "Netflix",
       "type": "Streaming Service",
       "description": "Watch a variety of movies and TV shows on demand.",
-      "price": 75,
+      "amount": 75,
       "billing_cycle": "Monthly",
       "platform": "Online Streaming",
       "features": [
@@ -1916,7 +1954,7 @@
       "name": "Disney Plus Hotstar",
       "type": "Streaming Service",
       "description": "Enjoy popular movies, TV shows, and exclusive Disney content.",
-      "price": 15,
+      "amount": 15,
       "billing_cycle": "Monthly",
       "platform": "Online Streaming",
       "features": [
@@ -1930,7 +1968,7 @@
       "name": "Zee Plus",
       "type": "Streaming Service",
       "description": "Watch a wide range of TV shows, movies, and original content.",
-      "price": 20,
+      "amount": 20,
       "billing_cycle": "Monthly",
       "platform": "Online Streaming",
       "features": [
@@ -1944,7 +1982,7 @@
       "name": "Jio Fiber",
       "type": "Fiber Internet Service",
       "description": "Recharge your wifi plan with data, talk time, and more.",
-      "price": 30,
+      "amount": 30,
       "billing_cycle": "As per wifi plan",
       "platform": "Wifi Recharge",
       "features": [
@@ -1958,7 +1996,7 @@
       "name": "Amazon Prime",
       "type": "Membership",
       "description": "Get access to fast delivery, exclusive deals, and streaming content.",
-      "price": 10,
+      "amount": 10,
       "billing_cycle": "Monthly",
       "platform": "Online Membership",
       "features": [
@@ -1972,7 +2010,7 @@
       "name": "Crunchyroll",
       "type": "Streaming Service",
       "description": "Stream a wide variety of anime shows and movies.",
-      "price": 15,
+      "amount": 15,
       "billing_cycle": "Monthly",
       "platform": "Online Streaming",
       "features": [
@@ -1986,7 +2024,7 @@
       "name": "Music Unlimited",
       "type": "Music Streaming",
       "description": "Listen to a vast library of music tracks and albums.",
-      "price": 8,
+      "amount": 8,
       "billing_cycle": "Monthly",
       "platform": "Music Streaming",
       "features": [
@@ -2000,7 +2038,7 @@
       "name": "Yoga and Fitness",
       "type": "Subscription",
       "description": "Access guided yoga and fitness classes for a healthy lifestyle.",
-      "price": 20,
+      "amount": 20,
       "billing_cycle": "Monthly",
       "platform": "Online Subscription",
       "features": [
@@ -2014,7 +2052,7 @@
       "name": "Nature Exploration Guide",
       "type": "Subscription",
       "description": "Explore the wonders of nature through guided virtual tours.",
-      "price": 30,
+      "amount": 30,
       "billing_cycle": "Monthly",
       "platform": "Online Subscription",
       "features": [
@@ -2028,7 +2066,7 @@
       "name": "Gourmet Cooking Masterclass",
       "type": "Online Course",
       "description": "Learn the art of gourmet cooking from renowned chefs.",
-      "price": 50,
+      "amount": 50,
       "billing_cycle": "One-time payment",
       "platform": "Online Course",
       "features": [
