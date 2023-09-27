@@ -283,7 +283,7 @@
       "gender": "female",
       "avatarNum": 7,
       "balance": 8323,
-      "finCoin": 2900,
+      "swiftCoin": 2900,
       "mobile": 9869560987,
       "contacts": [
         {
@@ -463,7 +463,7 @@
       "avatarNum": 10,
       "gender": "female",
       "balance": 6017,
-      "finCoin": 4140,
+      "swiftCoin": 4140,
       "mobile": 9869654327,
       "contacts": [
         {
@@ -692,7 +692,7 @@
       "avatarNum": 3,
       "gender": "male",
       "balance": "420010",
-      "finCoin": 1220,
+      "swiftCoin": 1220,
       "mobile": 9869570999,
       "contacts": [
         {
@@ -881,7 +881,7 @@
       "avatarNum": 4,
       "gender": "male",
       "balance": 5600,
-      "finCoin": 3500,
+      "swiftCoin": 3500,
       "mobile": 9867878955,
       "contacts": [
         {
